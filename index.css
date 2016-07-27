@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+		margin:0;
+		padding:0;
+		background-position:center top;
+		background-repeat:no-repeat;
+	}
+
+
+#wrapper {
+	position: relative;
+    height:980px;
+    max-width:980px;
+	margin-left:auto;
+	margin-right:auto;
+    -moz-background-size: cover;
+    background-size: cover;
+	}
+	
+#cover {
+	position: absolute;
+	z-index: 1;
+	max-height: auto;
+}
+
+#price{
+	position: absolute;
+	z-index: 20;
+	top: 8798px;
+	left: 620px;
+	margin-left: auto;
+	padding-left: auto;
+
+}	
+.price_text{
+	text-align: center;
+	font-size: 17px;
+	margin-left: auto;
+	padding-left: auto;
+}
+#price-sale{
+	position: absolute;
+	z-index: 20;
+	top: 8822px;
+	left: 630px;
+	margin-left: auto;
+	padding-left: auto;
+
+}	
+.price-sale_text{
+	text-align: center;
+	font-size: 25px;
+	margin-left: auto;
+	padding-left: auto;
+	color: #ef0000;
+}
+#shopping-cart_pic{
+	position: absolute;
+	z-index: 21;
+	top: 8830px;
+	left: 750px;
+	width: 145px;
+	height: 36px;
+	background-color: #d7d7d7;
+
+}
+#issuu-box{
+	position: absolute;
+	z-index: 22;
+	width: 740px;
+	height: 457px;
+    top: 7730px;
+	left: 120px;
+
+}
